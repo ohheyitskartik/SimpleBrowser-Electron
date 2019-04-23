@@ -1,0 +1,49 @@
+{
+  "name": "electron-browser",
+  "version": "1.5.9",
+  "description": "Adds a interface to electron that allows you to browse the internet or view local html files with tabs and webviews.",
+  "main": "index.js",
+  "scripts": {
+    "demo1": "node_modules\\electron\\dist\\electron.exe demos\\demo1-horizontal-light.js",
+    "demo2": "node_modules\\electron\\dist\\electron.exe demos\\demo2-vertical-dark.js",
+    "demo3": "node_modules\\electron\\dist\\electron.exe demos\\demo3-chrome-like.js",
+    "demo4": "node_modules\\electron\\dist\\electron.exe demos\\demo4-parent-child.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ohheyitskartik/SimpleBrowser-Electron"
+  },
+  "keywords": [
+    "address",
+    "auto",
+    "create",
+    "display",
+    "electron",
+    "html",
+    "http",
+    "internet",
+    "ipc-message",
+    "ipcRenderer",
+    "load",
+    "local",
+    "browser",
+    "search",
+    "send",
+    "tab",
+    "tabs",
+    "view",
+    "website",
+    "webview"
+  ],
+  "author": "Kartik Rana",
+  "license": "MIT",
+  "dependencies": {
+    "color.js": "^0.1.3",
+    "electron-context-menu": "^0.9.1",
+    "jquery": "^3.3.1",
+    "url-regex": "^4.1.1"
+  },
+  "devDependencies": {
+    "electron": "^2.0.2"
+  }
+}
